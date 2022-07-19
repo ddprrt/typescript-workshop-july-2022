@@ -35,8 +35,6 @@ type Bricks = ToyBase & {
 
 type Toy = Puzzle | BoardGame | Doll | Videogame | Bricks
 
-
-
 function assertNever(input: never) {
     throw Error("This can't be happening")
 }
